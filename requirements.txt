@@ -4,3 +4,4 @@ numpy
 seaborn
 pickle
 scikit-learn
+streamlit
