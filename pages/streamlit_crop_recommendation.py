@@ -49,13 +49,13 @@ col1, col2 = st.columns([1, 2])
 
 with col1:
     st.write("### Enter Soil & Climate Parameters:")
-    N_input = st.number_input("Nitrogen (N)",value =None ,placeholder="0-100")
-    P_input = st.number_input("Phosphorus (P)", value =None ,placeholder="0-100")
-    K_input = st.number_input("Potassium (K)",  value =None ,placeholder="0-100")
-    Temperature_input = st.number_input("Temperature (°C)",value =None ,placeholder="-10 to 50")
-    Humidity_input = st.number_input("Humidity (%)", value =None , placeholder="0-100")
-    pH_input = st.number_input("pH Level",value =None ,placeholder="0-14")
-    Rainfall_input = st.number_input("Rainfall (mm)",value =None ,  placeholder="0-500")
+    N_input = st.number_input("Nitrogen (N)",value =99 ,placeholder="0-100")
+    P_input = st.number_input("Phosphorus (P)", value =50 ,placeholder="0-100")
+    K_input = st.number_input("Potassium (K)",  value =15 ,placeholder="0-100")
+    Temperature_input = st.number_input("Temperature (°C)",value =18.4 ,placeholder="-10 to 50")
+    Humidity_input = st.number_input("Humidity (%)", value =71 , placeholder="0-100")
+    pH_input = st.number_input("pH Level",value =5.5 ,placeholder="0-14")
+    Rainfall_input = st.number_input("Rainfall (mm)",value =88 ,  placeholder="0-500")
 
 
 with col2:
